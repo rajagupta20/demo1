@@ -1,0 +1,22 @@
+VIEW btpgenai4s4Srv_CustomerMessages AS SELECT
+  CustomerMessages_0.ID,
+  CustomerMessages_0.customerMessageID,
+  CustomerMessages_0.titleEnglish,
+  CustomerMessages_0.customerName,
+  CustomerMessages_0.productName,
+  CustomerMessages_0.summaryEnglish,
+  CustomerMessages_0.messageCategory,
+  CustomerMessages_0.messageUrgency,
+  CustomerMessages_0.messageSentiment,
+  CustomerMessages_0.titleCustomerLanguage,
+  CustomerMessages_0.customerId,
+  CustomerMessages_0.productId,
+  CustomerMessages_0.summaryCustomerLanguage,
+  CustomerMessages_0.originatingCountry,
+  CustomerMessages_0.sourceLanguage,
+  CustomerMessages_0.fullMessageCustomerLanguage,
+  CustomerMessages_0.fullMessageEnglish,
+  CustomerMessages_0.suggestedResponseEnglish,
+  CustomerMessages_0.suggestedResponseCustomerLanguage,
+  CustomerMessages_0.S4HCP_ServiceOrder_ServiceOrder
+FROM btpgenai4s4_CustomerMessages AS CustomerMessages_0

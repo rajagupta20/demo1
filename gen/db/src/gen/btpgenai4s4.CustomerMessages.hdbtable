@@ -1,0 +1,23 @@
+COLUMN TABLE btpgenai4s4_CustomerMessages (
+  ID NVARCHAR(36) NOT NULL,
+  customerMessageID INTEGER,
+  titleEnglish NVARCHAR(100),
+  customerName NVARCHAR(100),
+  productName NVARCHAR(100),
+  summaryEnglish NVARCHAR(500),
+  messageCategory NVARCHAR(50),
+  messageUrgency NVARCHAR(20),
+  messageSentiment NVARCHAR(20),
+  titleCustomerLanguage NVARCHAR(100),
+  customerId NVARCHAR(50),
+  productId NVARCHAR(50),
+  summaryCustomerLanguage NVARCHAR(500),
+  originatingCountry NVARCHAR(50),
+  sourceLanguage NVARCHAR(20),
+  fullMessageCustomerLanguage NVARCHAR(1000),
+  fullMessageEnglish NVARCHAR(1000),
+  suggestedResponseEnglish NVARCHAR(500),
+  suggestedResponseCustomerLanguage NVARCHAR(500),
+  S4HCP_ServiceOrder_ServiceOrder NVARCHAR(10),
+  PRIMARY KEY(ID)
+)

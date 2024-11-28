@@ -1,0 +1,8 @@
+COLUMN TABLE btpgenai4s4_ProductFAQ (
+  ID INTEGER NOT NULL,
+  issue NCLOB,
+  question NCLOB,
+  answer NCLOB,
+  embedding REAL_VECTOR(1536),
+  PRIMARY KEY(ID)
+)

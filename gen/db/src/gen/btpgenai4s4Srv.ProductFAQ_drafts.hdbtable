@@ -1,0 +1,11 @@
+COLUMN TABLE btpgenai4s4Srv_ProductFAQ_drafts (
+  ID INTEGER NOT NULL,
+  issue NCLOB NULL,
+  question NCLOB NULL,
+  answer NCLOB NULL,
+  IsActiveEntity BOOLEAN,
+  HasActiveEntity BOOLEAN,
+  HasDraftEntity BOOLEAN,
+  DraftAdministrativeData_DraftUUID NVARCHAR(36) NOT NULL,
+  PRIMARY KEY(ID)
+)

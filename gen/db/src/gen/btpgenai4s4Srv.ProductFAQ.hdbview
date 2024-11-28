@@ -1,0 +1,6 @@
+VIEW btpgenai4s4Srv_ProductFAQ AS SELECT
+  ProductFAQ_0.ID,
+  ProductFAQ_0.issue,
+  ProductFAQ_0.question,
+  ProductFAQ_0.answer
+FROM btpgenai4s4_ProductFAQ AS ProductFAQ_0
